@@ -3,6 +3,7 @@
 A powerful **PDF-based chatbot** that allows you to ask questions from one or more PDF files using AI.  
 Built with **Streamlit**, **LangChain**, and **FAISS** for semantic search and contextual question answering.
 Powered by Retrieval-Augmented Generation (RAG) using FAISS and embeddings to fetch relevant PDF content before generating AI answers.
+
 ---
 
 ## Features ✨
