@@ -79,14 +79,20 @@ pdf-chatbot/
 
 ## Usage 📝
 -Open the app in your browser.
+
 -Upload one or more PDFs.
+
 -Ask a question in the input field (e.g., "What is the summary of chapter 1?").
+
 -Get AI-generated answers based on your PDF content.
+
 -Download the conversation history if needed.
 
 ## Notes ⚠️
 
 -Keep your .env private, do not push the actual key to GitHub.
+
 -The FAISS index (faiss_index/) is generated automatically and does not need to be pushed.
+
 -The app uses Python 3.12.2, specified in runtime.txt.
 
