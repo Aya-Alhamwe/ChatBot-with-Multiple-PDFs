@@ -27,7 +27,7 @@ You can try the live version of the chatbot here:
 
 ## Demo Screenshot
 
-![Chatbot Screenshot](https://i.ibb.co/wNmYHsx/langchain-logo.webp)  
+![Chatbot Screenshot](UI.jpg)  
 *Example of how the chat interface looks.*
 
 ---
