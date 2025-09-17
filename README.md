@@ -28,7 +28,7 @@ You can try the live version of the chatbot here:
 ## Demo Screenshot
 
 ![Chatbot Screenshot](UI.jpg)  
-*Example of how the chat interface looks.*
+*Example of how the chat interface looks*
 
 ---
 
