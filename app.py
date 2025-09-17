@@ -10,7 +10,6 @@ from utils.pdf_utils import get_pdf_text, get_text_chunks
 from utils.vector_utils import get_vector_store, load_vector_store
 from utils.qa_utils import get_conversational_chain
 
-# Fix asyncio loop issue
 try:
     asyncio.get_running_loop()
 except RuntimeError:
@@ -31,7 +30,8 @@ def user_input(user_question, model_name, api_key, pdf_docs, conversation_histor
     vector_store = load_vector_store(model_name)
     
     # Run similarity search and QA chain
-    docs = vector_store.similarity_search(user_question)
+    docs = vector_store.similarity_search(user_question, k=3)
+ 
     chain = get_conversational_chain(model_name, api_key=api_key)
     response = chain({"input_documents": docs, "question": user_question}, return_only_outputs=True)
     
