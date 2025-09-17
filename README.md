@@ -18,6 +18,13 @@ The system is built using **RAG (Retrieval-Augmented Generation)** with **LangCh
 
 ---
 
+## 🔗 Live Demo
+
+You can try the live version of the chatbot here:  
+[https://chatbot-multiple-pdfs-ayaalhamwi.streamlit.app/](https://chatbot-multiple-pdfs-ayaalhamwi.streamlit.app/)
+
+---
+
 ## Demo Screenshot
 
 ![Chatbot Screenshot](https://i.ibb.co/wNmYHsx/langchain-logo.webp)  
@@ -62,6 +69,24 @@ Run the app:
 ```bash
 streamlit run app.py
 ```
+
+## Deployment ☁️
+
+After setting up the project locally, you can deploy it online using Streamlit Community Cloud:
+
+Push your code to a GitHub repository.
+
+Go to Streamlit Cloud
+ and click "New app".
+
+Select your GitHub repository, choose the branch (main or master) and the main file path (app.py).
+
+Add your Google API Key as a secret in Streamlit Cloud.
+
+Click "Deploy" to launch your chatbot online.
+
+---
+
 ## Project Structure 🗂️
 ```bash
 pdf-chatbot/
