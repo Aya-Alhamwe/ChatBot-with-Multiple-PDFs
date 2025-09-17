@@ -72,18 +72,14 @@ streamlit run app.py
 
 ## Deployment ☁️
 
-After setting up the project locally, you can deploy it online using Streamlit Community Cloud:
+After setting up the project locally, you can **deploy it online** using **Streamlit Community Cloud**:
 
-Push your code to a GitHub repository.
+1. Push your code to a **GitHub repository**.
+2. Go to [Streamlit Cloud](https://share.streamlit.io/) and click **"New app"**.
+3. Select your **GitHub repository**, choose the branch (`main` or `master`) and the main file path (`app.py`).
+4. Add your **Google API Key** as a secret in Streamlit Cloud.
+5. Click **"Deploy"** to launch your chatbot online.
 
-Go to Streamlit Cloud
- and click "New app".
-
-Select your GitHub repository, choose the branch (main or master) and the main file path (app.py).
-
-Add your Google API Key as a secret in Streamlit Cloud.
-
-Click "Deploy" to launch your chatbot online.
 
 ---
 
