@@ -1,19 +1,20 @@
 # Chatbot with Multiple PDFs 📚🤖
 
-A powerful **PDF-based chatbot** that allows you to ask questions from one or more PDF files using AI.  
-Built with **Streamlit**, **LangChain**, and **FAISS** for semantic search and contextual question answering.
-Powered by Retrieval-Augmented Generation (RAG) using FAISS and embeddings to fetch relevant PDF content before generating AI answers.
+A chatbot that allows you to **upload multiple PDF files** and interact with them by asking questions.  
+The system is built using **RAG (Retrieval-Augmented Generation)** with **LangChain**, **FAISS** as the vector database, and a simple **Streamlit** interface.
 
 ---
 
-## Features ✨
+## ✨ Features
 
-- Upload **multiple PDFs** and extract their text automatically.  
-- Split PDFs into chunks and create **vector embeddings** for fast similarity search.  
-- Ask questions and get **detailed AI answers** based on your PDFs.  
-- **Download conversation history** as a CSV file.  
-- Works with **Google Generative AI** using your own API Key.  
-- Modern and clean chat interface with user-friendly design.
+- Upload and process multiple PDF files at once.
+- Extract text from PDFs and split it into manageable chunks.
+- Generate **embeddings** using HuggingFace MiniLM (`sentence-transformers/all-MiniLM-L6-v2`).
+- Store embeddings in a **FAISS** vector database for efficient retrieval.
+- Perform **similarity search** to fetch the most relevant text chunks for a given query.
+- Use **Google Gemini** (via `langchain_google_genai`) to generate accurate answers based only on the retrieved context.
+- User-friendly interface built with **Streamlit**.
+- Download full conversation history as a **CSV file**.
 
 ---
 
