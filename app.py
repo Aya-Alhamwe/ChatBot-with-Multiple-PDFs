@@ -66,11 +66,13 @@ def user_input(user_question, model_name, api_key, pdf_docs, conversation_histor
 def main():
     st.set_page_config(page_title="Chat with multiple PDFs", page_icon=":books:")
     st.header("ChatBot with Multiple PDFs")
+    st.markdown("<h3 style='text-align: center; color: gray;'>Aya Alhamwi</h3>", unsafe_allow_html=True)
+
 
     if 'conversation_history' not in st.session_state:
         st.session_state.conversation_history = []
 
-    model_name = st.sidebar.radio("Select the Model:", ("Google AI",))
+    model_name = st.sidebar.radio("The Model:", ("Google AI",))
     api_key = API_KEY
 
     if not api_key:
@@ -86,3 +88,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
